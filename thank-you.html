@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Macro Calculator Is Ready! | ApexAesthetics</title>
+    <style>
+        :root {
+            --black: #121212;
+            --white: #ffffff;
+            --red: #ff3a3a;
+            --gray: #2d2d2d;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--black);
+            color: var(--white);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            color: var(--white);
+        }
+        h1 {
+            color: var(--white);
+            font-size: 32px;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+        p {
+            color: #b0b0b0;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .checkmark {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 25px;
+            background-color: var(--red);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: pulse 2s infinite;
+        }
+        .checkmark:after {
+            content: "✓";
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--red);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 10px;
+            transition: all 0.3s;
+            border: 2px solid var(--red);
+        }
+        .btn:hover {
+            background-color: transparent;
+            color: var(--red);
+        }
+        .btn-secondary {
+            background-color: transparent;
+            border: 2px solid var(--white);
+            color: var(--white);
+        }
+        .btn-secondary:hover {
+            background-color: var(--white);
+            color: var(--black);
+        }
+        .bonus-box {
+            background-color: var(--gray);
+            border-left: 4px solid var(--red);
+            padding: 20px;
+            margin: 40px 0;
+            text-align: left;
+            border-radius: 0 4px 4px 0;
+        }
+        .email-note {
+            font-size: 14px;
+            color: #777;
+            margin-top: 40px;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">APEXAESTHETICS</div>
+        
+        <div class="checkmark"></div>
+        
+        <h1>Your Macro Calculator Is On Its Way!</h1>
+        
+        <p>We've sent your <strong>free calculator</strong> and <strong>exclusive bonus</strong> to your email inbox.</p>
+        
+        <div class="bonus-box">
+            <h3 style="color: var(--white); margin-top: 0;">Your Free Bonus Includes:</h3>
+            <ul style="color: #b0b0b0; padding-left: 20px;">
+                <li>Hardgainer Grocery List (Value: $27)</li>
+                <li>5-Day Meal Plan Template</li>
+                <li>Access to Private Client-Only Tips</li>
+            </ul>
+        </div>
+        
+        <a href="https://tonywonyf.github.io/apex-macros/" class="btn">Open Calculator Now</a>
+        
+        <p style="margin-top: 40px;"><strong>Want 1-on-1 guidance?</strong> Let's build your custom plan together.</p>
+        <a href="https://calendly.com/justtonyf/30min" class="btn btn-secondary">Book Free Strategy Call</a>
+        
+        <p class="email-note">Can't find the email? Check your spam folder or <a href="mailto:media.apexaesthetic@gmail.com" style="color: var(--red);">contact us</a>.</p>
+    </div>
+</body>
+</html>
